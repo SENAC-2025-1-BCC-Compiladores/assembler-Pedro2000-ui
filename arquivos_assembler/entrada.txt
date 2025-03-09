@@ -1,0 +1,7 @@
+; Programa para somar dois números
+DADO 95  ; inicializa o end 0 com o valor 95
+DADO 5   ; inicializa o end 1 com o valor 5
+LDA 0    ; Carrega o valor do endereço 0 no acumulador
+ADD 1    ; Soma o valor do endereço 1 ao acumulador
+STA 255  ; Armazena o resultado no endereço 255
+HLT      ; Para a execução
